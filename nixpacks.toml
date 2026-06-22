@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs", "mysql-client"]
+
+[phases.install]
+cmds = ["npm install"]
+
+[start]
+cmd = "cd backend && node server.js"

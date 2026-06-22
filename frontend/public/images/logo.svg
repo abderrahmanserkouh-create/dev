@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <style>
+      .text { font-family: 'Georgia', 'Times New Roman', serif; }
+      .sub { font-family: 'Georgia', 'Times New Roman', serif; }
+    </style>
+  </defs>
+  <!-- Sewing needle icon -->
+  <g transform="translate(10, 30)">
+    <ellipse cx="0" cy="-14" rx="2.5" ry="4" fill="#2c2c2c"/>
+    <line x1="0" y1="-10" x2="0" y2="16" stroke="#2c2c2c" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-2.5" y1="16" x2="2.5" y2="16" stroke="#2c2c2c" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Thread -->
+    <path d="M0,-10 Q-8,-4 -6,2 Q-4,8 -8,14" fill="none" stroke="#2c2c2c" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- Xưởng May -->
+  <text x="32" y="22" class="text" font-size="11" fill="#2c2c2c" font-weight="700" letter-spacing="3">XƯỞNG MAY</text>
+  <!-- Nhà Công -->
+  <text x="32" y="42" class="text" font-size="20" fill="#2c2c2c" font-weight="700" letter-spacing="4">NHÀ CÔNG</text>
+  <!-- Decorative line -->
+  <line x1="32" y1="48" x2="175" y2="48" stroke="#2c2c2c" stroke-width="0.8" opacity="0.4"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "xuong-may-nha-cong",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && node server.js",
+    "dev": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run dev\"",
+    "postinstall": "node backend/scripts/postinstall.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
