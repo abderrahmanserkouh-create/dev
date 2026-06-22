@@ -2,7 +2,7 @@
 nixPkgs = ["nodejs", "mysql-client"]
 
 [phases.install]
-cmds = ["npm install"]
+cmds = ["npm install", "cd backend && npm install"]
 
 [start]
 cmd = "cd backend && node server.js"
