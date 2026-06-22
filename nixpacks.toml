@@ -4,5 +4,8 @@ nixPkgs = ["nodejs", "mysql-client"]
 [phases.install]
 cmds = ["npm install", "cd backend && npm install"]
 
+[phases.build]
+cmds = ["cd frontend && npm install && npm run build"]
+
 [start]
 cmd = "cd backend && node server.js"
